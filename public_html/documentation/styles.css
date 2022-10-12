@@ -1,0 +1,21 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: azure;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.2rem;
+    line-height: 1.5;
+    color: #333;
+}
+
+h2 {
+    font-size: 2rem;
+    font-weight: 500;
+    margin-bottom: 1rem;
+}
+p {
+    margin-bottom: 1rem;
+
+}
