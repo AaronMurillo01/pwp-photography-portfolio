@@ -1,28 +1,42 @@
-/*Website title*/
+/*Image logo*/
 .header {
     position: relative;
 }
 .header .heading {
     position: absolute;
     top: 20px;
-    left: 30%;
+    left: 35%;
+    font-size: 45px;
     z-index: 100;
     color: white;
-    font-size: 45px;;
+    font-style: italic;
+    max-width: 350px;
+}
+.header .heading img{
+    width: 100%;
+}
+.header .img img{
+    width: 100%;
+    height: 100vh;
+    transition: 0.8s;
 }
 
 /*First two image section*/
 .images-section {
-    padding: 25px 20px;
+    padding: 40px 20px;
     max-width: 1050px;
     margin: auto;
-
+    object-fit: cover;
 }
 
 .images-section .data .img img{
     width: 100%;
     height: 400px;
+    float: left;
+    border: 50px;
+    padding: 30px;
 }
+
 
 .images-section .data .title{
     font-size: 22px;
@@ -31,6 +45,7 @@
     text-align: center;
     padding-bottom: 35px;
 }
+
 
 /*About me and pricing section*/
 .about-section{
@@ -43,6 +58,7 @@
     min-height: 150px;
 }
 .about-section .data .img img{
+    object-fit: cover;
     width: 100%;
 }
 .about-section .data .title{
@@ -59,6 +75,10 @@
     margin: 10px 5px;
     font-weight: 500;
 }
+
+
+
+
 
 
 
