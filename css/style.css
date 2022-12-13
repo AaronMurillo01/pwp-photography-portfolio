@@ -61,6 +61,13 @@ html {
     padding-bottom: 35px;
 }
 
+img {
+    transition: all 1s;
+}
+img:hover{
+    transform: scale(1.1);
+}
+
 /*About me and pricing section*/
 .about-section{
     padding: 25px 20px;
